@@ -97,7 +97,7 @@ if __name__ ==  "__main__":
             while not os.path.exists(path):
                 time.sleep(1)
 
-            time.sleep(5)
+            time.sleep(5) # without delay the file may create fail and cause error
 
             # analyze data
             data = pd.read_csv(path, sep='\s+', header=None, skiprows=2)
@@ -126,4 +126,4 @@ if __name__ ==  "__main__":
             print(f"current max value: {max_val} index: {max_index}")
             print("------------------------------")
 
-            output_number += 1
+            output_number += 1  
