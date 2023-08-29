@@ -1,0 +1,16 @@
+需要調整的地方:
+
+1. AEDT_Auto.py 的第517行，修改成自己需要的路徑
+	oProject.SaveAs("C:\\Users\\USER\\Desktop\\Light test (HFSS)\\Light_test 20230502v2_copy.aedtresults.aedt", True)
+
+2. AEDT_Auto.py 的第576行，修改成自己需要的路徑
+	oModule.ExportOnGrid("C:\\Users\\USER\\Desktop\\Code\\Full_Flow\\Data\\output"+str(Iteration)+".fld",...
+
+3. AEDT_Auto.py 的第576行，修改成 model.py 所在的路徑
+	path = "C:/Users/USER/Desktop/Code/Full_Flow/Data/input"+str(iteration)+".txt"
+
+4. model.py 第21行，修改成 model.py 所在的路徑
+
+5. model.py 第22行，修改成存放 data 的文件名稱
+	DATA_PATH = f'{PATH}/data_for_vedio.txt'
+
