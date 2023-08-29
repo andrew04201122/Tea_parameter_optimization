@@ -37,3 +37,7 @@
 - python 3.11
 - SMT 2.0
 - Ansys 2020
+
+## Result
+<img src="image/experiment_result.png" width="700px">
+<img src="image/final_parameter_setting.png" width="500px">
