@@ -6,4 +6,5 @@
 - model.py : Initial point with Random sampling, deal with input and output, In this file  
 - smt_test.py : global optimization model implementation here.
 
+  ! [image](https://github.com/andrew04201122/Tea_parameter_optimization/blob/main/image/model_structure.png)
   
